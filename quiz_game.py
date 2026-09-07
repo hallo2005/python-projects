@@ -7,6 +7,8 @@ questions = {
     'What is the smallest prime number?': {'choices': ['A) 0', 'B) 1', 'C) 9', 'D) 2'], 'answer': 'D'},
     'What is the square root of 64?': {'choices': ['A) 6', 'B) 7', 'C) 8', 'D) 9'], 'answer': 'C'}
 }
+
+
 def ask_question(question, answer):
     print(question)
     choices = answer['choices']
@@ -38,3 +40,4 @@ while play_again.lower() == "yes":
     else:
         print("Keep practicing! You'll get better with more practice.")
     play_again = input("Do you want to play again? (Yes/No): ")
+
